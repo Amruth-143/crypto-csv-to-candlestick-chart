@@ -1,0 +1,12 @@
+[project]
+name = "crypto-csv-to-candlestick-chart"
+version = "0.1.0"
+description = "Fetch cryptocurrency market data with CCXT, save it as CSV, and plot candlestick charts."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ccxt",
+    "matplotlib",
+    "mplfinance",
+    "pandas",
+]
